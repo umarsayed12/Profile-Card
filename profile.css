@@ -1,0 +1,104 @@
+body{
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #FFFFFF;
+    height: 400px;
+    width: 300px;
+    margin-left: 40%;
+    margin-top: 10%;
+    display: grid;
+    object-fit: cover;
+    box-shadow: 0 5px 15px;
+    border-radius: 20px;
+}
+.upper{
+    background-color: rgb(168, 20, 248);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 70%;
+    width: 300px;
+    object-fit: cover;
+}
+.image{
+    position: relative;
+    height:130px;
+    width: 130px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.image .profile-img{
+    object-fit: cover;
+    border: 3px solid  rgb(168, 20, 248);
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    padding: 3px;
+}
+h2{
+    text-align: center;
+    margin-right: 5px ;
+    margin-bottom: -10px;
+    margin-top: -5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    text-align: center;
+    margin-bottom: -3px;
+
+}
+.social{  
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 60px;
+}
+.fa-linkedin{
+    background: #007bb5;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 2px;
+    margin: 0 10px;
+}
+.fa-github{
+    background: #FFFFFF;
+    color: #000000;
+    text-decoration: none;
+    padding: 2px;
+    margin: 0 10px;
+}
+.fa-x-twitter{
+    background: #FFFFFF;
+    color: #000000;
+    margin: 0 10px;
+}
+.fa-instagram{
+    background: white;
+    color: #C13584;
+    text-decoration: none;
+    padding: 2px;
+    margin: 0 10px;
+}
+.btn{
+  height: 30px;
+  width: 80px;
+  padding-top: 7.5px;
+  padding-left: 15px;
+  display: flex;
+  text-align: center;
+  margin: -30px 115px;
+  background-color : rgb(168, 20, 248);
+  border: 0;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
